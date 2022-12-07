@@ -1,0 +1,28 @@
+:root {
+    --main-bg: #FFFBEB ;
+    --secondary-bg: #495579;
+    --main-text: #263159;
+    --secondary-text: #251749;
+}  
+
+body {
+    background-color: var(--main-bg);
+}
+
+h1 {
+    color: var(--main-text);
+}
+
+h3 {
+    color: var(--secondary-text);
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: var(--secondary-bg);
+    border-width: 5px;
+    width: 5%;
+}
+img {
+    width: 160px;
+}
